@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Iqra Mam! 🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-float" id="bgFloat" aria-hidden="true"></div>
+<div class="balloons" id="balloons" aria-hidden="true"></div>
+<div class="fx" id="fx" aria-hidden="true"></div>
+
+<!-- PAGE 1: WELCOME -->
+<section class="page active" id="p1">
+  <div class="glass hero">
+    <!-- PHOTO COLLAGE: replace each src below with Iqra's photos -->
+    <div class="collage">
+      <!-- TEMP PHOTO: Replace this URL with Iqra's photo later (MAIN) -->
+      <img class="birthday-photo main-photo" src="image/Iamge 1.jpg"Iqra">
+      <!-- TEMP PHOTO: Replace this URL with Iqra's photo later -->
+      <img class="birthday-photo" src="image/Image 2.jpg" alt="Iqra">
+      <!-- TEMP PHOTO: Replace this URL with Iqra's photo later -->
+      <img class="birthday-photo" src="image/Image 3.jpg" alt="Iqra">
+    </div>
+    <h1>Happy Birthday, Iqra Mam! 🎂💖</h1>
+    <p class="lead">Today is your special day...</p>
+    <p>So I made a little something just for you. ✨</p>
+    <p>Ready to celebrate? 👀🎉</p>
+    <button class="btn pulse" data-go="p2">LET'S CELEBRATE 🎉</button>`
+  </div>
+</section>
+
+<!-- PAGE 2: CELEBRATION -->
+<section class="page" id="p2">
+  <div class="stage">
+    <!-- TEMP PHOTO: Replace this URL with Iqra's photo later -->
+    <img class="birthday-photo side-photo" src="image/IMG_4.jpg" alt="Iqra">
+    <div class="cakewrap">
+      <button class="cake" id="cake" aria-label="Tap the cake">
+        <span class="flame"></span><span class="candle"></span>
+        <span class="layer l1"></span><span class="layer l2"></span><span class="layer l3"></span>
+        <span class="plate"></span>
+      </button>
+      <p class="hint">Tap the cake 🎂</p>
+    </div>
+    <!-- TEMP PHOTO: Replace this URL with Iqra's photo later -->
+    <img class="birthday-photo side-photo" src="image/IMG_5.jpg " alt="Iqra">
+  </div>
+
+  <article class="note">
+    <h2>A Little Note For You, Iqra 💗</h2>
+    <p>Happy Birthday to someone who has made so many ordinary moments a little more special. From random conversations to funny moments and all those little memories, I'm genuinely happy that you're a part of my life. ❤️</p>
+    <p>I hope this year brings you lots of happiness, beautiful memories, success, and countless reasons to smile. Keep being the amazing person you are. 🌸</p>
+    <p>Never forget how genuinely amazing you are. Keep being the wonderful, kind, beautiful person you are. ❤️</p>
+    <p><b>And yes... your birthday celebration is still pending. 😌🎂</b></p>
+  </article>
+
+  <h2 class="title">Our Little Memories 💕</h2>
+  <div class="memories">
+    <!-- TEMP PHOTO: Replace this URL with a memory photo later -->
+    <figure class="polaroid" tabindex="0"><img class="memory-photo" src="image/Image 6.jpg" alt="Memory 1"></figure>
+    <!-- TEMP PHOTO: Replace this URL with a memory photo later -->
+    <figure class="polaroid" tabindex="0"><img class="memory-photo" src="image/IMG_7.jpg" alt="Memory 2"></figure>
+    <!-- TEMP PHOTO: Replace this URL with a memory photo later -->
+    <figure class="polaroid" tabindex="0"><img class="memory-photo" src="image/IMG_8.jpg" alt="Memory 3"></figure>
+    <!-- TEMP PHOTO: Replace this URL with a memory photo later -->
+    <figure class="polaroid" tabindex="0"><img class="memory-photo" src="image/iamge 9.jpg" alt="Memory 4"></figure>
+  </div>
+  <p class="caption">Some moments are too good not to remember. 💕</p>
+  <div class="center"><button class="btn" data-go="p3">Okay, One Important Question 👀</button></div>
+</section>
+
+<!-- PAGE 3: QUESTION -->
+<section class="page" id="p3">
+  <div class="glass card">
+    <h2>Iqra Mam... ❤️</h2>
+    <p class="big">Will you give me a birthday celebration? 🎂🥳</p>
+    <div class="emoji" id="sad">&nbsp;</div>
+    <p class="msg" id="noMsg">&nbsp;</p>
+    <div class="row">
+      <button class="btn" id="yes">YES 💖</button>
+      <button class="btn ghost" id="no">NO 😭</button>
+    </div>
+    <p class="msg" id="yay"></p>
+  </div>
+</section>
+
+<!-- PAGE 4: DAY -->
+<section class="page" id="p4">
+  <div class="glass card">
+    <h2>So, when should we celebrate? 🎂</h2>
+    <div class="row">
+      <button class="btn" data-day="Same Day">Same Day 🎉</button>
+      <button class="btn" data-day="Next Day">Next Day 🌙</button>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 5: TIME -->
+<section class="page" id="p5">
+  <div class="glass card">
+    <h2>And what time should we celebrate? ⏰</h2>
+    <div class="times">
+      <button class="btn" data-time="12:00 PM">12:00 PM 🍰</button>
+      <button class="btn" data-time="2:00 PM">2:00 PM 🎈</button>
+      <button class="btn" data-time="5:00 PM">5:00 PM 🌸</button>
+      <button class="btn" data-time="7:00 PM">7:00 PM ✨</button>
+      <button class="btn" data-time="8:00 PM">8:00 PM 🌙</button>
+      <button class="btn" data-time="9:00 PM">9:00 PM 🎉</button>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL PAGE -->
+<section class="page" id="p6">
+  <div class="glass card">
+    <h2>Birthday Celebration Confirmed! 🎉🎂💖</h2>
+    <dl class="summary">
+      <div><dt>Birthday Girl</dt><dd>Iqra Mam</dd></div>
+      <div><dt>Celebration</dt><dd>YES 💖</dd></div>
+      <div><dt>Day</dt><dd id="outDay">-</dd></div>
+      <div><dt>Time</dt><dd id="outTime">-</dd></div>
+    </dl>
+    <p class="msg-soft">Now there's officially no escaping the birthday celebration. 😌🎂</p>
+    <p class="msg-soft">Save the date, bring your smile, and let's make another beautiful memory. 💕</p>
+    <p class="lead">📸 One last thing...</p>
+    <p>Please take a screenshot of this page and share it with me. ❤️</p>
+    <button class="btn" id="copy">Copy Celebration Details 📋</button>
+    <p class="msg" id="copied"></p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
